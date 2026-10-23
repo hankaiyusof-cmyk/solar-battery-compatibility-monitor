@@ -1,0 +1,11 @@
+Develop a complete prototype and working code for the project titled **“IoT-Based Solar Storage Battery Compatibility Monitoring and Condition Assessment System.”**
+
+Use the following components: a small solar panel, compatible solar charge controller, suitable low-voltage battery, ESP32 with Wi-Fi, voltage sensor, battery charge/discharge current sensor, temperature sensor, and an additional current sensor for leakage or standby current monitoring.
+
+Use Arduino IDE or equivalent firmware and an IoT dashboard that supports ESP32 Wi-Fi data transmission.
+
+The system should monitor battery voltage, charging/discharging current, leakage/standby current, and battery temperature in real time. The dashboard should display State of Charge (SOC), estimated State of Health (SOH), sensor readings, historical data where supported, and alerts.
+
+Include a clear battery usability indicator with three statuses: **USABLE**, **LIMITED / INSPECT**, and **NOT USABLE**, based on configurable thresholds and battery manufacturer specifications. Distinguish low charge from actual battery faults. Implement compatibility checks using battery and charge-controller specifications.
+
+Provide complete, well-commented ESP32 source code, component and pin configurations, wiring diagrams, dashboard setup instructions, required libraries, calibration guidance, testing procedures, and a GitHub README. Ensure the code matches the specified hardware and can be uploaded and tested. Clearly document assumptions, safety precautions, and limitations. Do not claim SOC or SOH accuracy without an appropriate estimation or validation method.
